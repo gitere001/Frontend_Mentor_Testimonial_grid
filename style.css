@@ -52,6 +52,7 @@ body {
 	justify-content: center;
 	flex-direction: column;
 	width: 80%;
+	margin-top: 15vh;
 
 }
 .test-card {
@@ -71,6 +72,8 @@ body {
 }
 .headers .name {
 	flex-basis: 90%;
+	font-size: 15px;
+	font-weight: 400;
 
 }
 .test-card h1 {
@@ -78,6 +81,8 @@ body {
 	font-size: 18px;
 }
 .test-card p {
+	font-size: 13px;
+	color: var(--Light-gray);
 
 }
 
@@ -95,7 +100,7 @@ body {
 	.wrapper {
 		flex-direction: row;
 		align-items: stretch;
-		width: 60%;
+		width: 80%;
 	}
 
 	.left {
